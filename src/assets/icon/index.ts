@@ -1,0 +1,18 @@
+export default {
+  ic_account: require('./ic-account.png'),
+  ic_back: require('./ic-back.png'),
+  ic_close: require('./ic-close.png'),
+  ic_compose_email: require('./ic-compose-email.png'),
+  ic_empty: require('./ic-empty.png'),
+  ic_lock: require('./ic-lock.png'),
+  ic_make_call: require('./ic-make-call.png'),
+  ic_qr: require('./ic-qr.png'),
+  ic_reload: require('./ic-reload.png'),
+  ic_sand_watch: require('./ic-sand-watch.png'),
+  ic_search: require('./ic-search.png'),
+  ic_shield: require('./ic-shield.png'),
+  tab_0: require('./tab-0.png'),
+  tab_1: require('./tab-1.png'),
+  tab_2: require('./tab-2.png'),
+  tab_3: require('./tab-3.png'),
+};

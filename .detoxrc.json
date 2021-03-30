@@ -1,0 +1,40 @@
+{
+  "testRunner": "jest",
+  "runnerConfig": "e2e/config.json",
+  "apps": {
+    "ios": {
+      "type": "ios.app",
+      "binaryPath": "./ios/eFinance/main.jsbundle"
+    },
+    "android": {
+      "type": "android.apk",
+      "binaryPath": "./android/app/src/main/assets/index.android.bundle"
+    }
+  },
+  "devices": {
+    "simulator": {
+      "type": "ios.simulator",
+      "device": {
+        "type": "iPhone 8 (14.4)"
+      }
+    },
+    "emulator": {
+      "type": "android.emulator",
+      "device": {
+        "avdName": "Pixel_3a_API_30_x86"
+      }
+    }
+  },
+  "configurations": {
+    "ios.release": {
+      "binaryPath": "./ios/build/Build/Products/Release-iphonesimulator/testReactNativeDetox.app",
+      "build": "xcodebuild -workspace ios/testReactNativeDetox.xcworkspace -configuration release -scheme testReactNativeDetox -sdk iphonesimulator -derivedDataPath ios/build",
+      "type": "ios.simulator",
+      "name": "iPhone X"
+    },
+    "android": {
+      "device": "emulator",
+      "app": "android"
+    }
+  }
+}

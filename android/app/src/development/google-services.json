@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "848543193459",
+    "project_id": "efinance-2607f",
+    "storage_bucket": "efinance-2607f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:848543193459:android:08837ee17e18bcbd308d06",
+        "android_client_info": {
+          "package_name": "com.efinance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "848543193459-dc8n57i55bvscc0v59s2uduatbdv7dc5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBW6vscDeM9vOfIHpr69_fk4o0iG4sbIow"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "848543193459-dc8n57i55bvscc0v59s2uduatbdv7dc5.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "848543193459-tm51seu5ed0rqad6jd8f7vaa571u2suf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.efinance"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:848543193459:android:6614625b33605da6308d06",
+        "android_client_info": {
+          "package_name": "com.efinance.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "848543193459-dc8n57i55bvscc0v59s2uduatbdv7dc5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBW6vscDeM9vOfIHpr69_fk4o0iG4sbIow"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "848543193459-dc8n57i55bvscc0v59s2uduatbdv7dc5.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "848543193459-tm51seu5ed0rqad6jd8f7vaa571u2suf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.efinance"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
